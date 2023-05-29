@@ -78,7 +78,7 @@ public class CalculatorTest {
 		int b = 0;
 		Calculator cal = new Calculator();
 		
-		int actual = cal.divide(a, b);
+		cal.divide(a, b);
 	}
 
 }
